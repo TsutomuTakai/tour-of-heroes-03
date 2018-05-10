@@ -3,11 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
     "udemy-angular0": {
-=======
-    "angular-tour-of-heroes": {
->>>>>>> 423d2b714fc5ad9eb9e659e17680c41f3ab8b1a9
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,11 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
             "outputPath": "dist/udemy-angular0",
-=======
-            "outputPath": "dist/angular-tour-of-heroes",
->>>>>>> 423d2b714fc5ad9eb9e659e17680c41f3ab8b1a9
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -31,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -58,30 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-<<<<<<< HEAD
             "browserTarget": "udemy-angular0:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "udemy-angular0:build:production"
-=======
-            "browserTarget": "angular-tour-of-heroes:build"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "angular-tour-of-heroes:build:production"
->>>>>>> 423d2b714fc5ad9eb9e659e17680c41f3ab8b1a9
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
             "browserTarget": "udemy-angular0:build"
-=======
-            "browserTarget": "angular-tour-of-heroes:build"
->>>>>>> 423d2b714fc5ad9eb9e659e17680c41f3ab8b1a9
           }
         },
         "test": {
@@ -115,11 +96,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "udemy-angular0-e2e": {
-=======
-    "angular-tour-of-heroes-e2e": {
->>>>>>> 423d2b714fc5ad9eb9e659e17680c41f3ab8b1a9
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -127,11 +104,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-<<<<<<< HEAD
             "devServerTarget": "udemy-angular0:serve"
-=======
-            "devServerTarget": "angular-tour-of-heroes:serve"
->>>>>>> 423d2b714fc5ad9eb9e659e17680c41f3ab8b1a9
           }
         },
         "lint": {
@@ -146,9 +119,5 @@
       }
     }
   },
-<<<<<<< HEAD
   "defaultProject": "udemy-angular0"
-=======
-  "defaultProject": "angular-tour-of-heroes"
->>>>>>> 423d2b714fc5ad9eb9e659e17680c41f3ab8b1a9
 }
