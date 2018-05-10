@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # UdemyAngular0
-=======
-# AngularTourOfHeroes
->>>>>>> 423d2b714fc5ad9eb9e659e17680c41f3ab8b1a9
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
